@@ -1,0 +1,305 @@
+body{
+     background-image:url(book3.jpeg);
+	 background-size:100%;
+	 background-repeat:no-repeat
+	 }
+
+h1  {
+    font-size:40px;
+    margin-top:30px;
+    font-weight:bold;
+    color:#ffff;
+    text-align:center;
+	text-decoration:underline
+    }
+
+#select-items{ float:right;
+              margin-right:130px
+
+			  }
+
+li {
+    font-size:22px;
+	color:#ffff;
+	list-style:none;
+	font-weight:bold;
+	margin-top:60px
+   }
+
+.input-button { 
+               width:60px;
+			   height:30px;
+              border-radius:10px;
+			  font-weight:bold;
+              background-color:green
+
+			  }
+
+#input-box {
+            width:200px;
+			height:30px;
+			text-align:center;
+			border-radius:12px;
+            margin-left:80px;
+			margin-top:30px;
+			box-shadow:0px 0px 10px pink
+           }
+#link {background-color:green;
+       padding: 5px 10px 5px 10px;
+	   box-shadow:0px 0px 15px pink
+	   }
+
+#menu-list{ display:flex
+           }
+
+#icon {
+       margin-left:30px;
+	   margin-top:10px
+      }
+
+a    { 
+     font-size:20px;
+	 font-weight:bold;
+	 text-decoration: none;
+	 padding: 15px 60px 15px 60px;
+	  text-align:center;
+	 color:#ffff
+	 }
+a:hover { background-color:orange}	
+
+    
+		 
+
+
+/* addbook css */
+   
+
+
+
+
+
+   table         { 
+                  float:right; 
+                  margin-top:70px;
+				  margin-right:120px
+                  }
+
+.textbox   { 
+           width:150px;
+           height: 25px;
+		   box-shadow: 0px 0px 10px yellow
+		   }
+
+
+td         {
+           font-size:20px;
+		   font-weight:bold;
+		   padding-right:20px;
+		   padding-top:20px;
+		   color:#ffff
+		   }
+    
+#button  {
+          font-weight:bold;
+          width:100px;
+		  height:30px;
+		  margin-left:30px;
+		  border-radius:10px;
+		  background-color:lightblue
+		  }
+
+
+
+/* search book	*/
+    
+.serch-part  { 
+             float: right;
+			 margin-right:540px;
+			 margin-top:35px
+			 }
+              
+		
+.legend-search  {
+                 width:350px;
+				 height:50px;
+			     }
+legend { font-weight: bold;
+         font-size:18px;
+		 color:#ffff
+		 }
+
+#legend-input {
+               width:340px;
+			   height:30px;
+			   outline:0px;
+			   border:0px;
+			  box-shadow: 0px 0px 10px lightblue
+			   }
+
+
+#input-search { 
+               font-weight:bold;
+			   width: 200px;
+			   height: 30px;
+			   margin-top:20px;
+			   margin-left:80px;
+			   background-color:pink;
+			   border-radius:10px
+			   }
+
+
+
+/* update book */
+
+#update-list  { 
+               float : right;
+			   margin-right:30px;
+			   margin-top:70px;
+              }
+
+
+.update-box   {
+               width:160px;
+               height: 20px ;
+			   box-shadow:0px 0px 10px green
+              }
+
+
+#update-button  {
+                 width:120px;
+				 text-align:center;
+				 height:20px;
+				 background-color: yellow;
+				 font-weight:bold;
+				 border-radius:10px;
+				 margin-left:10px
+                }
+
+
+
+/* remove book */
+
+
+
+
+
+
+.remove-input  { float:right;
+                 margin-right:40px;
+				 font-size:20px;
+				 box-shadow:0px 0px 15px skyblue
+				 }
+
+
+
+
+.remove-button    {
+                  margin-left:40px;
+                  width:150px;
+				   height:30px;
+				   background-color:orange;
+				   border-radius:10px;
+				   font-weight:bold;
+		           text-align:center
+				   }
+
+
+/*  log in */
+
+#content {
+          height:280px;
+		  width:500px;
+		  margin-top:200px;
+		  margin-left:550px
+		  }
+
+#mail-label {font-size:20px;
+              padding-bottom:5px;
+			  font-weight:bold;
+			  color:#ffff
+			 } 
+
+#mail-input { height:40px;
+              width:400px;
+			  margin-top:8px;
+			  outline:0px;
+			  border:1px solid;
+			  border-right:0px;
+			   box-shadow:0px 0px 15px skyblue
+              }
+
+
+#icon1  { border:1px solid;
+          border-left:0px;
+		  margin-top:8px;
+		  padding-right:10px;
+		  padding-bottom:4px;
+		  padding-top:6px;
+		  background-color:#ffff
+		}
+
+#mail-div {display:flex}
+
+#mail-err {font-weight:bold;
+           color:red
+           }
+
+#password-label{font-size:20px;
+              padding-bottom:5px;
+			  font-weight:bold;
+			  color:#ffff
+			  }
+
+
+#password-input {height:40px;
+              width:360px;
+			margin-top:5px;
+			  outline:0px;
+			  border:1px solid;
+			  border-right:0px;
+			   box-shadow:0px 0px 15px skyblue
+             }
+
+
+#icon2    {border:1px solid;
+          border-left:0px;
+		  border-right:0px;
+		  margin-top:5px;
+		  padding-right:10px;
+		  padding-top:8px;
+		  background-color:#ffff
+		
+		   }
+
+#icon3  { border:1px solid;
+          border-left:0px;
+		  padding-top:7px;
+		  margin-top:5px;
+           background-color:#ffff;
+		  padding-right:10px;
+		  padding-bottom:2px;
+          box-shadow:0px 0px 15px skyblue
+		  }		  
+
+#password-div{display:flex}
+
+#password-err{font-weight:bold;
+              color:red
+			  }
+
+#login-button  {width:420px;
+                height:40px;
+				margin-top:15px;
+				background-color:#0099ff;
+			    color:#ffff;
+				font:bold;
+				font-size:15px;
+				 box-shadow:0px 0px 6px yellow
+				}
+
+
+
+
+
+
+
